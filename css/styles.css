@@ -2,3 +2,15 @@
     border: 0 !important;
     background-color: transparent !important;
 }
+
+.box {
+    position: relative;
+}
+.search::after {
+    content: url(/img/icon-search-black.svg);
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 2%;
+    top: 20%;
+}
